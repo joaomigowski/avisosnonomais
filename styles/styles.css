@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(90deg, #bbf, #fff, #bbf, #fff);
+    word-wrap: break-word;
 }
 
 a {
@@ -10,4 +11,15 @@ a {
     border: 3px dotted #000;
     padding: 8px;
     background: linear-gradient(90deg, #fff, #aaa, #fff, #aaa);
+}
+
+.container {
+    border: 3px dashed #fff;
+    padding: 8px;
+    background: linear-gradient(90deg, #000, #013, #000, #013);
+    color: #fff;
+}
+
+.container a {
+    color: #77f;
 }
