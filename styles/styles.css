@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(90deg, #fbf, #fff, #fbf, #fff);
     word-wrap: break-word;
+    font-family: Times New Roman;
 }
 
 a {
