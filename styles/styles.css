@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg, #bbf, #fff, #bbf, #fff);
+    background: linear-gradient(90deg, #fbf, #fff, #fbf, #fff);
     word-wrap: break-word;
 }
 
@@ -16,10 +16,22 @@ a {
 .container {
     border: 3px dashed #fff;
     padding: 8px;
-    background: linear-gradient(90deg, #000, #013, #000, #013);
+    background: linear-gradient(90deg, #000, #313, #000, #313);
     color: #fff;
 }
 
 .container a {
     color: #77f;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background: linear-gradient(90deg, #fbf, #fff);
+    }
+    .container {
+        background: linear-gradient(90deg, #000, #313);
+    }
+    .box {
+        background: linear-gradient(90deg, #fff, #aaa);
+    }
 }
