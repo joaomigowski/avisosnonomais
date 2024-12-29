@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(90deg, #fbf, #fff, #fbf, #fff);
     word-wrap: break-word;
-    font-family:Verdana, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 a {
